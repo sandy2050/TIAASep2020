@@ -1,3 +1,4 @@
+"use strict";
 //Fruit prices are stored in Enum
 //enum FruitBasket {Orange=10, Apple=35, Mango=50};
 //Fruit names and quantity is stored in  Tuples

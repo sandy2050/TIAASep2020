@@ -1,3 +1,11 @@
+"use strict";
 var message = "Hello World";
 console.log(message);
-
+var _$a1a21323232142$4_ = "Hello again";
+var ameya;
+var Ameya;
+var myNumber = 23;
+var myBoolean = true;
+var myNumberArray = [1, 2, 3];
+var myNumArray = [4, 5, 6];
+var myStringArray = ["one", "two", "three"];

@@ -1,3 +1,4 @@
+"use strict";
 var employees;
 employees = [
     ["John", 9922334455],
@@ -5,15 +6,17 @@ employees = [
     ["Stacie", 9781224498]
 ];
 console.log(employees);
+//find number of Stacie
 var searchstring = "Stacie";
-for (var index = 0; index < employees.length; index++) {
-    console.log(employees[index][0]);
-    if (employees[index][0] == searchstring) {
-        console.log(searchstring + "'s number is: " + employees[index][1]);
+for (var index_1 = 0; index_1 < employees.length; index_1++) {
+    console.log(employees[index_1][0]);
+    if (employees[index_1][0] == searchstring) {
+        console.log(searchstring + "'s number is: " + employees[index_1][1]);
+        break;
     }
 }
-searchstring = "Cathy";
 //find number of Cathy
+searchstring = "Cathy";
 employees.forEach(function (element) {
     if (element[0] == searchstring) {
         console.log(searchstring + "'s number is: " + element[1]);

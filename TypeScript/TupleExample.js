@@ -1,11 +1,12 @@
+"use strict";
 var x;
 // Initialize it 
-x = [, 10];
+x = ["John", 19];
 x[1] = 20;
-//x[0] = "Ameya";
+x[0] = "Ameya";
 console.log(x[0]);
 console.log(x[1]);
 x[0] = "Rosie";
 console.log(x);
-x = ["Jack", 20];
+x = ["Jack", 25];
 console.log(x);

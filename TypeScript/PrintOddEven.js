@@ -1,8 +1,9 @@
-for (var index = 2; index < 51; index++) {
-    if (index % 2 == 0) {
-        console.log(index + "is even");
+"use strict";
+for (var index_1 = 2; index_1 < 51; index_1++) {
+    if (index_1 % 2 == 0) {
+        console.log(index_1 + " is even");
     }
     else {
-        console.log(index + "is odd");
+        console.log(index_1 + " is odd");
     }
 }
