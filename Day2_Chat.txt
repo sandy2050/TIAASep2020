@@ -1,1 +1,59 @@
-Test Message
+Day 1 Recap: 
+
+- Client - Server Architecture, Technologies, Programming Languages
+- Same technology stack for Client as well as Server side programming (Javascript) 
+- What is JavaScript 
+  - Makes client pages more interactive, supports external integrations like PDF, images, other files, etc
+  - We can now use it for both Frontend and Backend - made possible by platforms like Node.js
+  
+- Node.js is made of: 
+  - 1. Execution engine / Runtime
+  - 2. Libraries 
+      - Hosted on npm repository
+  - NPM 
+    - Website
+    - Registry
+    - CLI
+ 
+ - TypeScript
+  - More Robust
+  - More OOPS support
+  - Additional Libraries
+  - Compile time checks
+  - Open Sourced by Microsoft
+  - Script Type checking (Strictly typed langauge)
+  - Cross Platform
+  
+ - Scripting in TypeScript
+  - Variables 
+  - Naming of Variables 
+  - var and let to initialize variables
+  - let is preferred after ES6 or ES2015 
+  - Constant
+  - Loops (for)
+  - Conditions (if)
+  - Tuples 
+  - Enum
+  - ForEach 
+    - Uses Fat Arrow or Lambda Expression
+  - Functions
+    - With Parameters 
+        - Optional parameters
+        - Default Parameters
+        - Rest Parameters ...
+      - Without Parameters
+    - function(var a, var b): String {
+      }
+    - anonymous functions
+      - (var a, var b) {
+        }
+    - Arrow Functions
+      
+    
+    
+    
+  
+  
+  
+
+
