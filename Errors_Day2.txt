@@ -1,0 +1,37 @@
+Error faced by Sandeep Singh ------------------------------------------
+Chrome and firefox both browsers are opening and getting closed immediately 
+
+Error xxxxxxxxxxx
+
+D:\Protractor\Training\Protractor>protractor conf.js
+[18:32:30] I/launcher - Running 1 instances of WebDriver
+[18:32:30] I/hosted - Using the selenium server at http://localhost:4444/wd/hub
+[18:32:36] E/launcher - Error: Error: Cannot find module 'selenium-mock'
+Require stack:
+- D:\Protractor\Training\Protractor\node_modules\webdriver-js-extender\built\spec\mock-server\commands\index.js
+- D:\Protractor\Training\Protractor\node_modules\webdriver-js-extender\built\spec\mock-server\index.js
+- D:\Protractor\Training\Protractor\node_modules\webdriver-js-extender\built\spec\command_tests\helpers.js
+- D:\Protractor\Training\Protractor\node_modules\webdriver-js-extender\built\spec\command_tests\normal_spec.js
+- C:\Users\Sandeep Singh\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\lib\jasmine.js
+- C:\Users\Sandeep Singh\AppData\Roaming\npm\node_modules\protractor\built\frameworks\jasmine.js
+- C:\Users\Sandeep Singh\AppData\Roaming\npm\node_modules\protractor\built\runner.js
+- C:\Users\Sandeep Singh\AppData\Roaming\npm\node_modules\protractor\built\launcher.js
+- C:\Users\Sandeep Singh\AppData\Roaming\npm\node_modules\protractor\built\cli.js
+- C:\Users\Sandeep Singh\AppData\Roaming\npm\node_modules\protractor\bin\protractor
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:965:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:841:27)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (D:\Protractor\Training\Protractor\node_modules\webdriver-js-extender\spec\mock-server\commands\index.ts:5:1)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+[18:32:36] E/launcher - Process exited with error code 100
+
+D:\Protractor\Training\Protractor>
+
+
+xxxxxxxxxxxxxxxx
+------------------------------------------
